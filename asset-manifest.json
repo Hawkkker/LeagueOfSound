@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/LeagueOfSound/static/css/main.81cdbcd0.css",
+    "main.js": "/LeagueOfSound/static/js/main.cfa73213.js",
+    "index.html": "/LeagueOfSound/index.html",
+    "main.81cdbcd0.css.map": "/LeagueOfSound/static/css/main.81cdbcd0.css.map",
+    "main.cfa73213.js.map": "/LeagueOfSound/static/js/main.cfa73213.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.81cdbcd0.css",
+    "static/js/main.cfa73213.js"
+  ]
+}
