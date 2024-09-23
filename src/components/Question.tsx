@@ -91,7 +91,7 @@ const Question: React.FC<Props> = (props) => {
                     filterChampions(e.currentTarget.value.toLowerCase());
                     setHideChampionSelect(false)
                 }}
-                onBlur={() => setHideChampionSelect(false)}
+                onBlur={() => setHideChampionSelect(true)}
             />
             {!hideChampionSelect ? <SelectChampion champions={selectableChampions} onAnswer={props.onAnswer} setHideChampionSelect={setHideChampionSelect}></SelectChampion> : null}
         </div>
