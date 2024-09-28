@@ -62,7 +62,7 @@ const Question: React.FC<Props> = (props) => {
         <div className="d-flex justify-content-center align-center text-center flex-column">
             <div>
                 <ReactAudioPlayer
-                    src={`http://localhost:3000/LeagueOfSound/audio/${props.audioPath}`}
+                    src={`/audio/${props.audioPath}`}
                     title='Guess the ability'
                     controls
                     volume={0.5}
