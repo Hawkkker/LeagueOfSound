@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/LeagueOfSound/static/css/main.81cdbcd0.css",
-    "main.js": "/LeagueOfSound/static/js/main.a2f6a430.js",
+    "main.js": "/LeagueOfSound/static/js/main.fb01351b.js",
     "index.html": "/LeagueOfSound/index.html",
     "main.81cdbcd0.css.map": "/LeagueOfSound/static/css/main.81cdbcd0.css.map",
-    "main.a2f6a430.js.map": "/LeagueOfSound/static/js/main.a2f6a430.js.map"
+    "main.fb01351b.js.map": "/LeagueOfSound/static/js/main.fb01351b.js.map"
   },
   "entrypoints": [
     "static/css/main.81cdbcd0.css",
-    "static/js/main.a2f6a430.js"
+    "static/js/main.fb01351b.js"
   ]
 }
