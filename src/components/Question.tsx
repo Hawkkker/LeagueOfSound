@@ -21,7 +21,7 @@ interface ChampionDataAnswered {
 
 const Question: React.FC<Props> = (props) => {
     const [hideChampionSelect, setHideChampionSelect] = useState<boolean>(true);
-    const [championQuery, setChampionQuery] = useState<string>("");
+    const [championQuery, setChampionQuery] = useState<string>('');
     const [availableChampions, setAvailableChampions] = useState<ChampionData[]>(champions);
     const [answersGiven, setAnswersGiven] = useState<ChampionDataAnswered[]>([]);
 
@@ -48,6 +48,9 @@ const Question: React.FC<Props> = (props) => {
         if (props.goodAnswer) {
             setHideChampionSelect(true);
         }
+        if (filteredAnsweredChampions.length === 0) {
+            setChampionQuery('');
+        }
     }, [props.answersGiven, props.goodAnswer]);
 
     const onBlur = (event: React.FocusEvent<HTMLInputElement>) => {
@@ -62,7 +65,7 @@ const Question: React.FC<Props> = (props) => {
         <div className="d-flex justify-content-center align-center text-center flex-column">
             <div>
                 <ReactAudioPlayer
-                    src={`/audio/${props.audioPath}`}
+                    src={`http://localhost:3000/LeagueOfSound/audio/${props.audioPath}`}
                     title='Guess the ability'
                     controls
                     volume={0.5}
@@ -74,8 +77,8 @@ const Question: React.FC<Props> = (props) => {
                     const cardClass = isLast && props.goodAnswer ? 'bg-success' : 'bg-danger';
 
                     return (
-                        <li className="d-flex justify-content-center my-1" key={answerGiven.answeredAbility.id}>
-                            <div className={`card d-flex flex-row w-25 row ${cardClass}`}>
+                        <li className="d-flex justify-content-center flex-column my-1" key={answerGiven.answeredAbility.id}>
+                            <div className={`card d-flex flex-row row ${cardClass}`}>
                                 <div className="col-6">
                                     <img
                                         src={answerGiven.answeredAbility.icon}
@@ -98,17 +101,18 @@ const Question: React.FC<Props> = (props) => {
                 variant="outlined"
                 disabled={props.goodAnswer || props.audioPath.endsWith('undefined')}
                 onChange={function (e) {
-                    setChampionQuery(e.currentTarget.value.toLowerCase());
+                    setChampionQuery(e.currentTarget.value);
                     setHideChampionSelect(false)
                 }}
                 onFocus={function (e) {
-                    setChampionQuery(e.currentTarget.value.toLowerCase());
+                    setChampionQuery(e.currentTarget.value);
                     setHideChampionSelect(false)
                 }}
+                value={championQuery}
                 onBlur={onBlur}
             />
             {!hideChampionSelect ? 
-            <SelectChampion championQuery={championQuery} availableChampions={availableChampions} onAnswer={props.onAnswer} setHideChampionSelect={setHideChampionSelect}></SelectChampion>
+            <SelectChampion championQuery={championQuery.toLowerCase()} answersGiven={props.answersGiven} availableChampions={availableChampions} onAnswer={props.onAnswer} setHideChampionSelect={setHideChampionSelect}></SelectChampion>
             : null}
         </div>
     );

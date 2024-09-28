@@ -6,6 +6,7 @@ import AnswerGiven from '../interface/AnswerGiven';
 
 interface Props {
     championQuery: string;
+    answersGiven: AnswerGiven[];
     availableChampions: ChampionData[];
     onAnswer: (answer: AnswerGiven) => void;
     setHideChampionSelect: (bool: boolean) => void;
@@ -13,7 +14,7 @@ interface Props {
 
 const SelectChampion: React.FC<Props> = (props) => {
     const [selectableChampions, setSelectableChampions] = useState<ChampionData[]>(props.availableChampions);
-    const [selectedChampion, setSelectedChampion] = useState<ChampionData>();
+    const [selectedChampion, setSelectedChampion] = useState<ChampionData>(props.availableChampions[0]);
     const [open, setOpen] = React.useState(false);
 
     const handleOpen = () => setOpen(true);
@@ -37,7 +38,7 @@ const SelectChampion: React.FC<Props> = (props) => {
 
     return (
         <div>
-            <div className="d-flex flex-column mx-auto w-50">
+            <div className="d-flex flex-column mx-auto">
                 <Paper style={{maxHeight: 350, overflow: 'auto'}}>
                     <List>
                         {selectableChampions.map((championData: ChampionData) => {
@@ -80,7 +81,7 @@ const SelectChampion: React.FC<Props> = (props) => {
             >
                 <Fade in={open}>
                     <div>
-                        <SelectAbility champion={selectedChampion} onAnswer={props.onAnswer} closeDialog={handleClose} setHideChampionSelect={props.setHideChampionSelect}></SelectAbility>
+                        <SelectAbility champion={selectedChampion} answersGiven={props.answersGiven} onAnswer={props.onAnswer} closeDialog={handleClose} setHideChampionSelect={props.setHideChampionSelect}></SelectAbility>
                     </div>
                 </Fade>
             </Dialog> : null}
