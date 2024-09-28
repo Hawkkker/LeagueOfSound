@@ -4,30 +4,45 @@ import { List, TextField } from '@mui/material';
 import ReactAudioPlayer from 'react-audio-player';
 import champions from '../assets/champions.json';
 import ChampionData from '../interface/ChampionData';
+import AnswerGiven from '../interface/AnswerGiven';
+import Ability from '../interface/Ability';
  
 interface Props {
     audioPath: string;
-    answersGiven: string[];
+    answersGiven: AnswerGiven[];
     goodAnswer: boolean;
-    onAnswer: (answer: string) => void;
+    onAnswer: (answer: AnswerGiven) => void;
+}
+
+interface ChampionDataAnswered {
+    championData: ChampionData,
+    answeredAbility: Ability
 }
 
 const Question: React.FC<Props> = (props) => {
     const [hideChampionSelect, setHideChampionSelect] = useState<boolean>(true);
-    const [selectableChampions, setSelectableChampions] = useState<ChampionData[]>(champions);
+    const [championQuery, setChampionQuery] = useState<string>("");
     const [availableChampions, setAvailableChampions] = useState<ChampionData[]>(champions);
-    const [answersGiven, setAnswersGiven] = useState<ChampionData[]>([]);
+    const [answersGiven, setAnswersGiven] = useState<ChampionDataAnswered[]>([]);
 
     useEffect(() => {
-        const filteredAnsweredChampions = champions.filter((championData: ChampionData) => 
-            props.answersGiven.includes(championData.name.toLowerCase())
-        );
-        filteredAnsweredChampions.sort((a: ChampionData, b: ChampionData) => 
-            props.answersGiven.indexOf(b.name.toLowerCase()) - props.answersGiven.indexOf(a.name.toLowerCase())
-        );
-        const filteredAvailableChampions = champions.filter((championData: ChampionData) => 
-            !props.answersGiven.includes(championData.name.toLowerCase())
-        );
+        const filteredAnsweredChampions = props.answersGiven.map((answer: AnswerGiven) =>  {
+            const champion = champions.find((champion: ChampionData) => champion.id.toLowerCase() === answer.championName.toLowerCase())!;
+            const ability = champion?.spells.find((ability: Ability) => ability.id.toLowerCase() === answer.spellName)!;
+            
+            return {championData: champion, answeredAbility: ability};
+        });
+        filteredAnsweredChampions.sort((a: ChampionDataAnswered, b: ChampionDataAnswered) => {
+            const aIndex = props.answersGiven.findIndex((answer) => answer.spellName.toLowerCase() === a.answeredAbility?.id.toLowerCase());
+            const bIndex = props.answersGiven.findIndex((answer) => answer.spellName.toLowerCase() === b.answeredAbility?.id.toLowerCase());
+
+            return bIndex - aIndex;
+        });
+        const filteredAvailableChampions = champions.filter((championData: ChampionData) => {
+            const countChampionName = props.answersGiven.filter((answer) => answer.championName.toLowerCase() === championData.name.toLowerCase()).length;
+
+            return countChampionName !== championData.spells.length;
+        });
         setAvailableChampions(filteredAvailableChampions);
         setAnswersGiven(filteredAnsweredChampions);
         if (props.goodAnswer) {
@@ -35,44 +50,43 @@ const Question: React.FC<Props> = (props) => {
         }
     }, [props.answersGiven, props.goodAnswer]);
 
-    function filterChampions(championName: string) {
-        if (!championName) {
-            return setSelectableChampions(availableChampions);
+    const onBlur = (event: React.FocusEvent<HTMLInputElement>) => {
+        const target = event.relatedTarget as HTMLElement | null;
+        if (target) {
+            return;
         }
-        const filteredChampions = availableChampions.filter((championData: ChampionData) => 
-            championData.name.toLowerCase().includes(championName)
-        );
-        setSelectableChampions(filteredChampions);
+        setHideChampionSelect(true);
     }
 
     return (
         <div className="d-flex justify-content-center align-center text-center flex-column">
             <div>
                 <ReactAudioPlayer
-                    src={`/audio/${props.audioPath}`}
+                    src={`http://localhost:3000/LeagueOfSound/audio/${props.audioPath}`}
+                    title='Guess the ability'
                     controls
                     volume={0.5}
                 />
             </div>
             <List>
-                {answersGiven.map((championData: ChampionData, index: number) => {
+                {answersGiven.map((answerGiven: ChampionDataAnswered, index: number) => {
                     const isLast = index === answersGiven.length - 1;
                     const cardClass = isLast && props.goodAnswer ? 'bg-success' : 'bg-danger';
-                    
+
                     return (
-                        <li className="d-flex justify-content-center my-1" key={championData.id}>
+                        <li className="d-flex justify-content-center my-1" key={answerGiven.answeredAbility.id}>
                             <div className={`card d-flex flex-row w-25 row ${cardClass}`}>
                                 <div className="col-6">
                                     <img
-                                        src={championData.icon}
+                                        src={answerGiven.answeredAbility.icon}
                                         width={50}
                                         height={50}
-                                        alt={championData.name}
-                                        loading="lazy"
+                                        alt={answerGiven.answeredAbility.id}
+                                        loading="eager"
                                     />
                                 </div>
                                 <div className="col-6 d-flex justify-content-center align-items-center text-white">
-                                    <span>{championData.name}</span>
+                                    <span>{answerGiven.answeredAbility.nameEn}</span>
                                 </div>
                             </div>
                         </li>
@@ -82,18 +96,20 @@ const Question: React.FC<Props> = (props) => {
             <TextField
                 name="searchChampion"
                 variant="outlined"
-                disabled={props.goodAnswer}
+                disabled={props.goodAnswer || props.audioPath.endsWith('undefined')}
                 onChange={function (e) {
-                    filterChampions(e.currentTarget.value.toLowerCase());
+                    setChampionQuery(e.currentTarget.value.toLowerCase());
                     setHideChampionSelect(false)
                 }}
                 onFocus={function (e) {
-                    filterChampions(e.currentTarget.value.toLowerCase());
+                    setChampionQuery(e.currentTarget.value.toLowerCase());
                     setHideChampionSelect(false)
                 }}
-                onBlur={() => setHideChampionSelect(true)}
+                onBlur={onBlur}
             />
-            {!hideChampionSelect ? <SelectChampion champions={selectableChampions} onAnswer={props.onAnswer} setHideChampionSelect={setHideChampionSelect}></SelectChampion> : null}
+            {!hideChampionSelect ? 
+            <SelectChampion championQuery={championQuery} availableChampions={availableChampions} onAnswer={props.onAnswer} setHideChampionSelect={setHideChampionSelect}></SelectChampion>
+            : null}
         </div>
     );
 };

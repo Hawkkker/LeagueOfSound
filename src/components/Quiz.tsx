@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import Question from './Question';
 import champions from '../assets/champions.json';
 import ChampionData from '../interface/ChampionData';
-
+import AnswerGiven from '../interface/AnswerGiven';
 
 interface QuestionData {
     audioPath: string;
@@ -12,7 +12,7 @@ interface QuestionData {
 
 const Quiz: React.FC = () => {
     const [currentQuestion, setCurrentQuestion] = useState<QuestionData>();
-    const [answersGiven, setAnswersGiven] = useState<string[]>([]);
+    const [answersGiven, setAnswersGiven] = useState<AnswerGiven[]>([]);
     const [goodAnswer, setGoodAnswer] = useState<boolean>(false);
 
     useEffect(() => {
@@ -21,17 +21,17 @@ const Quiz: React.FC = () => {
         const spellName = championData!.spells[Math.floor(Math.random() * championData!.spells.length)];
         const selectedQuestion = {
             championName: pickedChampion,
-            spellName: spellName,
-            audioPath: pickedChampion + '/' + spellName,
+            spellName: spellName?.id,
+            audioPath: pickedChampion + '/' + spellName?.filename,
         };
         setCurrentQuestion(selectedQuestion);
     }, []);
 
-    const handleAnswer = (answer: string) => {
-        if (answer.toLowerCase() === currentQuestion?.championName.toLowerCase()) {
+    const handleAnswer = (answer: AnswerGiven) => {
+        if (answer.spellName === currentQuestion?.spellName.toLowerCase()) {
             setGoodAnswer(true);
         }
-        if (!answersGiven.includes(answer)) {
+        if (!answersGiven.some(answerGiven => answerGiven.spellName === answer.spellName)) {
             setAnswersGiven([answer, ...answersGiven]);
         }
     };

@@ -12,11 +12,36 @@
         },
         "description": "Once honored defenders of Shurima against the Void, Aatrox and his brethren would eventually become an even greater threat to Runeterra, and were defeated only by cunning mortal sorcery. But after centuries of imprisonment, Aatrox was the first to find...",
         "spells": [
-            "Aatrox_W.mp3",
-            "Aatrox_Passiv.mp3",
-            "Aatrox_Q.mp3",
-            "Aatrox_R.mp3",
-            "Aatrox_E.mp3"
+            {
+                "id": "AatroxPassiv",
+                "filename": "AatroxPassiv.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/passive/Aatrox_Passive.png",
+                "nameEn": "Deathbringer Stance"
+            },
+            {
+                "id": "AatroxQ",
+                "filename": "AatroxQ.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/AatroxQ.png",
+                "nameEn": "The Darkin Blade"
+            },
+            {
+                "id": "AatroxW",
+                "filename": "AatroxW.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/AatroxW.png",
+                "nameEn": "Infernal Chains"
+            },
+            {
+                "id": "AatroxE",
+                "filename": "AatroxE.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/AatroxE.png",
+                "nameEn": "Umbral Dash"
+            },
+            {
+                "id": "AatroxR",
+                "filename": "AatroxR.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/AatroxR.png",
+                "nameEn": "World Ender"
+            }
         ]
     },
     {
@@ -32,11 +57,36 @@
         },
         "description": "Innately connected to the latent power of Runeterra, Ahri is a vastaya who can reshape magic into orbs of raw energy. She revels in toying with her prey by manipulating their emotions before devouring their life essence. Despite her predatory nature...",
         "spells": [
-            "AhriPassiv.mp3",
-            "AhriW.mp3",
-            "AhriR.mp3",
-            "AhriE.mp3",
-            "AhriQ.mp3"
+            {
+                "id": "AhriPassiv",
+                "filename": "AhriPassiv.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/passive/Ahri_SoulEater2.png",
+                "nameEn": "Essence Theft"
+            },
+            {
+                "id": "AhriQ",
+                "filename": "AhriQ.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/AhriQ.png",
+                "nameEn": "Orb of Deception"
+            },
+            {
+                "id": "AhriW",
+                "filename": "AhriW.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/AhriW.png",
+                "nameEn": "Fox-Fire"
+            },
+            {
+                "id": "AhriE",
+                "filename": "AhriE.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/AhriE.png",
+                "nameEn": "Charm"
+            },
+            {
+                "id": "AhriR",
+                "filename": "AhriR.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/AhriR.png",
+                "nameEn": "Spirit Rush"
+            }
         ]
     },
     {
@@ -52,11 +102,36 @@
         },
         "description": "Abandoning the Kinkou Order and her title of the Fist of Shadow, Akali now strikes alone, ready to be the deadly weapon her people need. Though she holds onto all she learned from her master Shen, she has pledged to defend Ionia from its enemies, one...",
         "spells": [
-            "AkaliPassiv.mp3",
-            "AkaliW.mp3",
-            "AkaliQ.mp3",
-            "AkaliR.mp3",
-            "AkaliE.mp3"
+            {
+                "id": "AkaliPassiv",
+                "filename": "AkaliPassiv.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/passive/Akali_P.png",
+                "nameEn": "Assassin's Mark"
+            },
+            {
+                "id": "AkaliQ",
+                "filename": "AkaliQ.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/AkaliQ.png",
+                "nameEn": "Five Point Strike"
+            },
+            {
+                "id": "AkaliW",
+                "filename": "AkaliW.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/AkaliW.png",
+                "nameEn": "Twilight Shroud"
+            },
+            {
+                "id": "AkaliE",
+                "filename": "AkaliE.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/AkaliE.png",
+                "nameEn": "Shuriken Flip"
+            },
+            {
+                "id": "AkaliR",
+                "filename": "AkaliR.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/AkaliR.png",
+                "nameEn": "Perfect Execution"
+            }
         ]
     },
     {
@@ -66,11 +141,36 @@
         "title": "the Rogue Sentinel",
         "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Akshan.png",
         "spells": [
-            "AkshanW.mp3",
-            "AkshanQ.mp3",
-            "AkshanR.mp3",
-            "AkshanE.mp3",
-            "AkshanPassiv.mp3"
+            {
+                "id": "AkshanPassiv",
+                "filename": "AkshanPassiv.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/passive/akshan_p.png",
+                "nameEn": "Dirty Fighting"
+            },
+            {
+                "id": "AkshanQ",
+                "filename": "AkshanQ.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/AkshanQ.png",
+                "nameEn": "Avengerang"
+            },
+            {
+                "id": "AkshanW",
+                "filename": "AkshanW.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/AkshanW.png",
+                "nameEn": "Going Rogue"
+            },
+            {
+                "id": "AkshanE",
+                "filename": "AkshanE.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/AkshanE.png",
+                "nameEn": "Heroic Swing"
+            },
+            {
+                "id": "AkshanR",
+                "filename": "AkshanR.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/AkshanR.png",
+                "nameEn": "Comeuppance"
+            }
         ]
     },
     {
@@ -86,11 +186,36 @@
         },
         "description": "Always a mighty warrior with a fearsome reputation, Alistar seeks revenge for the death of his clan at the hands of the Noxian empire. Though he was enslaved and forced into the life of a gladiator, his unbreakable will was what kept him from truly...",
         "spells": [
-            "AlistarW.mp3",
-            "AlistarPassiv.mp3",
-            "AlistarE.mp3",
-            "AlistarR.mp3",
-            "AlistarQ.mp3"
+            {
+                "id": "AlistarPassiv",
+                "filename": "AlistarPassiv.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/passive/Alistar_E.png",
+                "nameEn": "Triumphant Roar"
+            },
+            {
+                "id": "AlistarQ",
+                "filename": "AlistarQ.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/Pulverize.png",
+                "nameEn": "Pulverize"
+            },
+            {
+                "id": "AlistarW",
+                "filename": "AlistarW.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/Headbutt.png",
+                "nameEn": "Headbutt"
+            },
+            {
+                "id": "AlistarE",
+                "filename": "AlistarE.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/AlistarE.png",
+                "nameEn": "Trample"
+            },
+            {
+                "id": "AlistarR",
+                "filename": "AlistarR.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/FerociousHowl.png",
+                "nameEn": "Unbreakable Will"
+            }
         ]
     },
     {
@@ -106,10 +231,30 @@
         },
         "description": "Legend claims that Amumu is a lonely and melancholy soul from ancient Shurima, roaming the world in search of a friend. Doomed by an ancient curse to remain alone forever, his touch is death, his affection ruin. Those who claim to have seen him describe...",
         "spells": [
-            "AmumuW.mp3",
-            "AmumuQ.mp3",
-            "AmumuR.mp3",
-            "AmumuE.mp3"
+            {
+                "id": "AmumuQ",
+                "filename": "AmumuQ.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/BandageToss.png",
+                "nameEn": "Bandage Toss"
+            },
+            {
+                "id": "AmumuW",
+                "filename": "AmumuW.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/AuraofDespair.png",
+                "nameEn": "Despair"
+            },
+            {
+                "id": "AmumuE",
+                "filename": "AmumuE.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/Tantrum.png",
+                "nameEn": "Tantrum"
+            },
+            {
+                "id": "AmumuR",
+                "filename": "AmumuR.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/CurseoftheSadMummy.png",
+                "nameEn": "Curse of the Sad Mummy"
+            }
         ]
     },
     {
@@ -125,11 +270,36 @@
         },
         "description": "Anivia is a benevolent winged spirit who endures endless cycles of life, death, and rebirth to protect the Freljord. A demigod born of unforgiving ice and bitter winds, she wields those elemental powers to thwart any who dare disturb her homeland...",
         "spells": [
-            "AniviaW.mp3",
-            "AniviaE.mp3",
-            "AniviaR.mp3",
-            "AniviaQ.mp3",
-            "AniviaPassiv.mp3"
+            {
+                "id": "AniviaPassiv",
+                "filename": "AniviaPassiv.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/passive/Anivia_P.png",
+                "nameEn": "Rebirth"
+            },
+            {
+                "id": "AniviaQ",
+                "filename": "AniviaQ.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/FlashFrost.png",
+                "nameEn": "Flash Frost"
+            },
+            {
+                "id": "AniviaW",
+                "filename": "AniviaW.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/Crystallize.png",
+                "nameEn": "Crystallize"
+            },
+            {
+                "id": "AniviaE",
+                "filename": "AniviaE.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/Frostbite.png",
+                "nameEn": "Frostbite"
+            },
+            {
+                "id": "AniviaR",
+                "filename": "AniviaR.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/GlacialStorm.png",
+                "nameEn": "Glacial Storm"
+            }
         ]
     },
     {
@@ -145,11 +315,36 @@
         },
         "description": "Dangerous, yet disarmingly precocious, Annie is a child mage with immense pyromantic power. Even in the shadows of the mountains north of Noxus, she is a magical outlier. Her natural affinity for fire manifested early in life through unpredictable...",
         "spells": [
-            "AnniePassiv.mp3",
-            "AnnieQ.mp3",
-            "AnnieR.mp3",
-            "AnnieE.mp3",
-            "AnnieW.mp3"
+            {
+                "id": "AnniePassiv",
+                "filename": "AnniePassiv.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/passive/Annie_Passive.png",
+                "nameEn": "Pyromania"
+            },
+            {
+                "id": "AnnieQ",
+                "filename": "AnnieQ.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/AnnieQ.png",
+                "nameEn": "Disintegrate"
+            },
+            {
+                "id": "AnnieW",
+                "filename": "AnnieW.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/AnnieW.png",
+                "nameEn": "Incinerate"
+            },
+            {
+                "id": "AnnieE",
+                "filename": "AnnieE.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/AnnieE.png",
+                "nameEn": "Molten Shield"
+            },
+            {
+                "id": "AnnieR",
+                "filename": "AnnieR.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/AnnieR.png",
+                "nameEn": "Summon: Tibbers"
+            }
         ]
     },
     {
@@ -165,10 +360,30 @@
         },
         "description": "Emerging from moonlight's shadow with weapons drawn, Aphelios kills the enemies of his faith in brooding silence\u2014speaking only through the certainty of his aim, and the firing of each gun. Though fueled by a poison that renders him mute, he is guided by...",
         "spells": [
-            "ApheliosR.mp3",
-            "ApheliosQ.mp3",
-            "ApheliosPassiv.mp3",
-            "ApheliosW.mp3"
+            {
+                "id": "ApheliosPassiv",
+                "filename": "ApheliosPassiv.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/passive/ApheliosP.png",
+                "nameEn": "The Hitman and the Seer"
+            },
+            {
+                "id": "ApheliosQ",
+                "filename": "ApheliosQ.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/ApheliosQ_ClientTooltipWrapper.png",
+                "nameEn": "Weapon Abilites"
+            },
+            {
+                "id": "ApheliosW",
+                "filename": "ApheliosW.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/ApheliosW.png",
+                "nameEn": "Phase"
+            },
+            {
+                "id": "ApheliosR",
+                "filename": "ApheliosR.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/ApheliosR.png",
+                "nameEn": "Moonlight Vigil"
+            }
         ]
     },
     {
@@ -184,10 +399,30 @@
         },
         "description": "Iceborn warmother of the Avarosan tribe, Ashe commands the most populous horde in the north. Stoic, intelligent, and idealistic, yet uncomfortable with her role as leader, she taps into the ancestral magics of her lineage to wield a bow of True Ice...",
         "spells": [
-            "AsheE.mp3",
-            "AsheR.mp3",
-            "AsheQ.mp3",
-            "AsheW.mp3"
+            {
+                "id": "AsheQ",
+                "filename": "AsheQ.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/AsheQ.png",
+                "nameEn": "Ranger's Focus"
+            },
+            {
+                "id": "AsheW",
+                "filename": "AsheW.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/Volley.png",
+                "nameEn": "Volley"
+            },
+            {
+                "id": "AsheE",
+                "filename": "AsheE.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/AsheSpiritOfTheHawk.png",
+                "nameEn": "Hawkshot"
+            },
+            {
+                "id": "AsheR",
+                "filename": "AsheR.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/EnchantedCrystalArrow.png",
+                "nameEn": "Enchanted Crystal Arrow"
+            }
         ]
     },
     {
@@ -203,10 +438,30 @@
         },
         "description": "Aurelion Sol once graced the vast emptiness of the cosmos with celestial wonders of his own devising. Now, he is forced to wield his awesome power at the behest of a space-faring empire that tricked him into servitude. Desiring a return to his...",
         "spells": [
-            "AurelionSolR.mp3",
-            "AurelionSolE.mp3",
-            "AurelionSolQ.mp3",
-            "AurelionSolW.mp3"
+            {
+                "id": "AurelionSolQ",
+                "filename": "AurelionSolQ.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/AurelionSolQ.png",
+                "nameEn": "Breath of Light"
+            },
+            {
+                "id": "AurelionSolW",
+                "filename": "AurelionSolW.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/AurelionSolW.png",
+                "nameEn": "Astral Flight"
+            },
+            {
+                "id": "AurelionSolE",
+                "filename": "AurelionSolE.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/AurelionSolE.png",
+                "nameEn": "Singularity"
+            },
+            {
+                "id": "AurelionSolR",
+                "filename": "AurelionSolR.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/AurelionSolR.png",
+                "nameEn": "Falling Star / The Skies Descend"
+            }
         ]
     },
     {
@@ -216,11 +471,36 @@
         "title": "the Witch Between Worlds",
         "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Aurora.png",
         "spells": [
-            "AuroraPassiv.mp3",
-            "AuroraQ.mp3",
-            "AuroraE.mp3",
-            "AuroraR.mp3",
-            "AuroraW.mp3"
+            {
+                "id": "AuroraPassiv",
+                "filename": "AuroraPassiv.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/passive/AuroraPassive.Aurora.png",
+                "nameEn": "Spirit Abjuration"
+            },
+            {
+                "id": "AuroraQ",
+                "filename": "AuroraQ.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/AuroraQ.png",
+                "nameEn": "Twofold Hex"
+            },
+            {
+                "id": "AuroraW",
+                "filename": "AuroraW.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/AuroraW.png",
+                "nameEn": "Across the Veil"
+            },
+            {
+                "id": "AuroraE",
+                "filename": "AuroraE.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/AuroraE.png",
+                "nameEn": "The Weirding"
+            },
+            {
+                "id": "AuroraR",
+                "filename": "AuroraR.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/AuroraR.png",
+                "nameEn": "Between Worlds"
+            }
         ]
     },
     {
@@ -236,11 +516,36 @@
         },
         "description": "Azir was a mortal emperor of Shurima in a far distant age, a proud man who stood at the cusp of immortality. His hubris saw him betrayed and murdered at the moment of his greatest triumph, but now, millennia later, he has been reborn as an Ascended...",
         "spells": [
-            "AzirW.mp3",
-            "AzirR.mp3",
-            "AzirE.mp3",
-            "AzirQ.mp3",
-            "AzirPassiv.mp3"
+            {
+                "id": "AzirPassiv",
+                "filename": "AzirPassiv.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/passive/Azir_Passive.png",
+                "nameEn": "Shurima's Legacy"
+            },
+            {
+                "id": "AzirQ",
+                "filename": "AzirQ.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/AzirQWrapper.png",
+                "nameEn": "Conquering Sands"
+            },
+            {
+                "id": "AzirW",
+                "filename": "AzirW.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/AzirW.png",
+                "nameEn": "Arise!"
+            },
+            {
+                "id": "AzirE",
+                "filename": "AzirE.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/AzirEWrapper.png",
+                "nameEn": "Shifting Sands"
+            },
+            {
+                "id": "AzirR",
+                "filename": "AzirR.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/AzirR.png",
+                "nameEn": "Emperor's Divide"
+            }
         ]
     },
     {
@@ -256,11 +561,36 @@
         },
         "description": "A traveler from beyond the stars, Bard is an agent of serendipity who fights to maintain a balance where life can endure the indifference of chaos. Many Runeterrans sing songs that ponder his extraordinary nature, yet they all agree that the cosmic...",
         "spells": [
-            "BardPassiv.mp3",
-            "BardW.mp3",
-            "BardE.mp3",
-            "BardR.mp3",
-            "BardQ.mp3"
+            {
+                "id": "BardPassiv",
+                "filename": "BardPassiv.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/passive/Bard_Passive.png",
+                "nameEn": "Traveler's Call"
+            },
+            {
+                "id": "BardQ",
+                "filename": "BardQ.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/BardQ.png",
+                "nameEn": "Cosmic Binding"
+            },
+            {
+                "id": "BardW",
+                "filename": "BardW.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/BardW.png",
+                "nameEn": "Caretaker's Shrine"
+            },
+            {
+                "id": "BardE",
+                "filename": "BardE.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/BardE.png",
+                "nameEn": "Magical Journey"
+            },
+            {
+                "id": "BardR",
+                "filename": "BardR.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/BardR.png",
+                "nameEn": "Tempered Fate"
+            }
         ]
     },
     {
@@ -284,11 +614,36 @@
         },
         "description": "Blitzcrank is an enormous, near-indestructible automaton from Zaun, originally built to dispose of hazardous waste. However, he found this primary purpose too restricting, and modified his own form to better serve the fragile people of the Sump...",
         "spells": [
-            "BlitzcrankPassiv.mp3",
-            "BlitzcrankR.mp3",
-            "BlitzcrankE.mp3",
-            "BlitzcrankQ.mp3",
-            "BlitzcrankW.mp3"
+            {
+                "id": "BlitzcrankPassiv",
+                "filename": "BlitzcrankPassiv.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/passive/Blitzcrank_ManaBarrier.png",
+                "nameEn": "Mana Barrier"
+            },
+            {
+                "id": "BlitzcrankQ",
+                "filename": "BlitzcrankQ.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/RocketGrab.png",
+                "nameEn": "Rocket Grab"
+            },
+            {
+                "id": "BlitzcrankW",
+                "filename": "BlitzcrankW.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/Overdrive.png",
+                "nameEn": "Overdrive"
+            },
+            {
+                "id": "BlitzcrankE",
+                "filename": "BlitzcrankE.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/PowerFist.png",
+                "nameEn": "Power Fist"
+            },
+            {
+                "id": "BlitzcrankR",
+                "filename": "BlitzcrankR.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/StaticField.png",
+                "nameEn": "Static Field"
+            }
         ]
     },
     {
@@ -304,11 +659,36 @@
         },
         "description": "Once a tribesman of the icy Freljord named Kegan Rodhe, the creature known as Brand is a lesson in the temptation of greater power. Seeking one of the legendary World Runes, Kegan betrayed his companions and seized it for himself\u2014and, in an instant, the...",
         "spells": [
-            "BrandQ.mp3",
-            "BrandR.mp3",
-            "BrandE.mp3",
-            "BrandPassiv.mp3",
-            "BrandW.mp3"
+            {
+                "id": "BrandPassiv",
+                "filename": "BrandPassiv.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/passive/BrandP.png",
+                "nameEn": "Blaze"
+            },
+            {
+                "id": "BrandQ",
+                "filename": "BrandQ.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/BrandQ.png",
+                "nameEn": "Sear"
+            },
+            {
+                "id": "BrandW",
+                "filename": "BrandW.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/BrandW.png",
+                "nameEn": "Pillar of Flame"
+            },
+            {
+                "id": "BrandE",
+                "filename": "BrandE.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/BrandE.png",
+                "nameEn": "Conflagration"
+            },
+            {
+                "id": "BrandR",
+                "filename": "BrandR.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/BrandP.png",
+                "nameEn": "Pyroclasm"
+            }
         ]
     },
     {
@@ -324,11 +704,36 @@
         },
         "description": "Blessed with massive biceps and an even bigger heart, Braum is a beloved hero of the Freljord. Every mead hall north of Frostheld toasts his legendary strength, said to have felled a forest of oaks in a single night, and punched an entire mountain into...",
         "spells": [
-            "BraumW.mp3",
-            "BraumPassiv.mp3",
-            "BraumR.mp3",
-            "BraumE.mp3",
-            "BraumQ.mp3"
+            {
+                "id": "BraumPassiv",
+                "filename": "BraumPassiv.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/passive/Braum_Passive.png",
+                "nameEn": "Concussive Blows"
+            },
+            {
+                "id": "BraumQ",
+                "filename": "BraumQ.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/BraumQ.png",
+                "nameEn": "Winter's Bite"
+            },
+            {
+                "id": "BraumW",
+                "filename": "BraumW.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/BraumW.png",
+                "nameEn": "Stand Behind Me"
+            },
+            {
+                "id": "BraumE",
+                "filename": "BraumE.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/BraumE.png",
+                "nameEn": "Unbreakable"
+            },
+            {
+                "id": "BraumR",
+                "filename": "BraumR.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/BraumRWrapper.png",
+                "nameEn": "Glacial Fissure"
+            }
         ]
     },
     {
@@ -338,10 +743,30 @@
         "title": "the Restrained Hunger",
         "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Briar.png",
         "spells": [
-            "BriarW.mp3",
-            "BriarQ.mp3",
-            "BriarE.mp3",
-            "BriarR.mp3"
+            {
+                "id": "BriarQ",
+                "filename": "BriarQ.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/BriarQ.png",
+                "nameEn": "Head Rush"
+            },
+            {
+                "id": "BriarW",
+                "filename": "BriarW.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/BriarW.png",
+                "nameEn": "Blood Frenzy / Snack Attack"
+            },
+            {
+                "id": "BriarE",
+                "filename": "BriarE.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/BriarE.png",
+                "nameEn": "Chilling Scream"
+            },
+            {
+                "id": "BriarR",
+                "filename": "BriarR.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/BriarR.png",
+                "nameEn": "Certain Death"
+            }
         ]
     },
     {
@@ -357,11 +782,36 @@
         },
         "description": "Renowned as its finest peacekeeper, Caitlyn is also Piltover's best shot at ridding the city of its elusive criminal elements. She is often paired with Vi, acting as a cool counterpoint to her partner's more impetuous nature. Even though she carries a...",
         "spells": [
-            "CaitlynQ.mp3",
-            "CaitlynE.mp3",
-            "CaitlynR.mp3",
-            "CaitlynW.mp3",
-            "CaitlynPassiv.mp3"
+            {
+                "id": "CaitlynPassiv",
+                "filename": "CaitlynPassiv.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/passive/Caitlyn_Headshot.png",
+                "nameEn": "Headshot"
+            },
+            {
+                "id": "CaitlynQ",
+                "filename": "CaitlynQ.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/CaitlynQ.png",
+                "nameEn": "Piltover Peacemaker"
+            },
+            {
+                "id": "CaitlynW",
+                "filename": "CaitlynW.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/CaitlynW.png",
+                "nameEn": "Yordle Snap Trap"
+            },
+            {
+                "id": "CaitlynE",
+                "filename": "CaitlynE.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/CaitlynE.png",
+                "nameEn": "90 Caliber Net"
+            },
+            {
+                "id": "CaitlynR",
+                "filename": "CaitlynR.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/CaitlynR.png",
+                "nameEn": "Ace in the Hole"
+            }
         ]
     },
     {
@@ -377,11 +827,36 @@
         },
         "description": "Weaponized to operate outside the boundaries of the law, Camille is the Principal Intelligencer of Clan Ferros\u2014an elegant and elite agent who ensures the Piltover machine and its Zaunite underbelly runs smoothly. Adaptable and precise, she views sloppy...",
         "spells": [
-            "CamillePassiv.mp3",
-            "CamilleW.mp3",
-            "CamilleQ.mp3",
-            "CamilleR.mp3",
-            "CamilleE.mp3"
+            {
+                "id": "CamillePassiv",
+                "filename": "CamillePassiv.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/passive/Camille_Passive.png",
+                "nameEn": "Adaptive Defenses"
+            },
+            {
+                "id": "CamilleQ",
+                "filename": "CamilleQ.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/CamilleQ.png",
+                "nameEn": "Precision Protocol"
+            },
+            {
+                "id": "CamilleW",
+                "filename": "CamilleW.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/CamilleW.png",
+                "nameEn": "Tactical Sweep"
+            },
+            {
+                "id": "CamilleE",
+                "filename": "CamilleE.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/CamilleE.png",
+                "nameEn": "Hookshot"
+            },
+            {
+                "id": "CamilleR",
+                "filename": "CamilleR.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/CamilleR.png",
+                "nameEn": "The Hextech Ultimatum"
+            }
         ]
     },
     {
@@ -397,10 +872,30 @@
         },
         "description": "Cassiopeia is a deadly creature bent on manipulating others to her sinister will. Youngest and most beautiful daughter of the noble Du Couteau family of Noxus, she ventured deep into the crypts beneath Shurima in search of ancient power. There, she was...",
         "spells": [
-            "CassiopeiaW.mp3",
-            "CassiopeiaQ.mp3",
-            "CassiopeiaR.mp3",
-            "CassiopeiaE.mp3"
+            {
+                "id": "CassiopeiaQ",
+                "filename": "CassiopeiaQ.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/CassiopeiaQ.png",
+                "nameEn": "Noxious Blast"
+            },
+            {
+                "id": "CassiopeiaW",
+                "filename": "CassiopeiaW.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/CassiopeiaW.png",
+                "nameEn": "Miasma"
+            },
+            {
+                "id": "CassiopeiaE",
+                "filename": "CassiopeiaE.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/CassiopeiaE.png",
+                "nameEn": "Twin Fang"
+            },
+            {
+                "id": "CassiopeiaR",
+                "filename": "CassiopeiaR.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/CassiopeiaR.png",
+                "nameEn": "Petrifying Gaze"
+            }
         ]
     },
     {
@@ -416,10 +911,30 @@
         },
         "description": "From the moment Cho'Gath first emerged into the harsh light of Runeterra's sun, the beast was driven by the most pure and insatiable hunger. A perfect expression of the Void's desire to consume all life, Cho'Gath's complex biology quickly converts...",
         "spells": [
-            "ChogathR.mp3",
-            "ChogathE.mp3",
-            "ChogathQ.mp3",
-            "ChogathW.mp3"
+            {
+                "id": "ChogathQ",
+                "filename": "ChogathQ.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/Rupture.png",
+                "nameEn": "Rupture"
+            },
+            {
+                "id": "ChogathW",
+                "filename": "ChogathW.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/FeralScream.png",
+                "nameEn": "Feral Scream"
+            },
+            {
+                "id": "ChogathE",
+                "filename": "ChogathE.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/VorpalSpikes.png",
+                "nameEn": "Vorpal Spikes"
+            },
+            {
+                "id": "ChogathR",
+                "filename": "ChogathR.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/Feast.png",
+                "nameEn": "Feast"
+            }
         ]
     },
     {
@@ -435,10 +950,30 @@
         },
         "description": "The yordle pilot Corki loves two things above all others: flying, and his glamorous mustache... though not necessarily in that order. After leaving Bandle City, he settled in Piltover and fell in love with the wondrous machines he found there. He...",
         "spells": [
-            "CorkiW.mp3",
-            "CorkiQ.mp3",
-            "CorkiE.mp3",
-            "CorkiR.mp3"
+            {
+                "id": "CorkiQ",
+                "filename": "CorkiQ.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/PhosphorusBomb.png",
+                "nameEn": "Phosphorus Bomb"
+            },
+            {
+                "id": "CorkiW",
+                "filename": "CorkiW.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/CarpetBomb.png",
+                "nameEn": "Valkyrie"
+            },
+            {
+                "id": "CorkiE",
+                "filename": "CorkiE.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/GGun.png",
+                "nameEn": "Gatling Gun"
+            },
+            {
+                "id": "CorkiR",
+                "filename": "CorkiR.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/MissileBarrage.png",
+                "nameEn": "Missile Barrage"
+            }
         ]
     },
     {
@@ -454,11 +989,36 @@
         },
         "description": "There is no greater symbol of Noxian might than Darius, the nation's most feared and battle-hardened commander. Rising from humble origins to become the Hand of Noxus, he cleaves through the empire's enemies\u2014many of them Noxians themselves. Knowing that...",
         "spells": [
-            "DariusQ.mp3",
-            "DariusR.mp3",
-            "DariusE.mp3",
-            "DariusW.mp3",
-            "DariusPassiv.mp3"
+            {
+                "id": "DariusPassiv",
+                "filename": "DariusPassiv.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/passive/Darius_Icon_Hemorrhage.png",
+                "nameEn": "Hemorrhage"
+            },
+            {
+                "id": "DariusQ",
+                "filename": "DariusQ.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/DariusCleave.png",
+                "nameEn": "Decimate"
+            },
+            {
+                "id": "DariusW",
+                "filename": "DariusW.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/DariusNoxianTacticsONH.png",
+                "nameEn": "Crippling Strike"
+            },
+            {
+                "id": "DariusE",
+                "filename": "DariusE.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/DariusAxeGrabCone.png",
+                "nameEn": "Apprehend"
+            },
+            {
+                "id": "DariusR",
+                "filename": "DariusR.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/DariusExecute.png",
+                "nameEn": "Noxian Guillotine"
+            }
         ]
     },
     {
@@ -474,11 +1034,36 @@
         },
         "description": "Bearing her crescent moonblade, Diana fights as a warrior of the Lunari\u2014a faith all but quashed in the lands around Mount Targon. Clad in shimmering armor the color of winter snow at night, she is a living embodiment of the silver moon's power. Imbued...",
         "spells": [
-            "DianaPassiv.mp3",
-            "DianaQ.mp3",
-            "DianaE.mp3",
-            "DianaR.mp3",
-            "DianaW.mp3"
+            {
+                "id": "DianaPassiv",
+                "filename": "DianaPassiv.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/passive/Diana_Passive_LunarBlade.png",
+                "nameEn": "Moonsilver Blade"
+            },
+            {
+                "id": "DianaQ",
+                "filename": "DianaQ.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/DianaQ.png",
+                "nameEn": "Crescent Strike"
+            },
+            {
+                "id": "DianaW",
+                "filename": "DianaW.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/DianaOrbs.png",
+                "nameEn": "Pale Cascade"
+            },
+            {
+                "id": "DianaE",
+                "filename": "DianaE.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/DianaTeleport.png",
+                "nameEn": "Lunar Rush"
+            },
+            {
+                "id": "DianaR",
+                "filename": "DianaR.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/DianaR.png",
+                "nameEn": "Moonfall"
+            }
         ]
     },
     {
@@ -494,11 +1079,36 @@
         },
         "description": "In Noxus, warriors known as Reckoners face one another in arenas where blood is spilled and strength tested\u2014but none has ever been as celebrated as Draven. A former soldier, he found that the crowds uniquely appreciated his flair for the dramatic, and...",
         "spells": [
-            "DravenPassiv.mp3",
-            "DravenW.mp3",
-            "DravenQ.mp3",
-            "DravenR.mp3",
-            "DravenE.mp3"
+            {
+                "id": "DravenPassiv",
+                "filename": "DravenPassiv.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/passive/Draven_passive.png",
+                "nameEn": "League of Draven"
+            },
+            {
+                "id": "DravenQ",
+                "filename": "DravenQ.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/DravenSpinning.png",
+                "nameEn": "Spinning Axe"
+            },
+            {
+                "id": "DravenW",
+                "filename": "DravenW.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/DravenFury.png",
+                "nameEn": "Blood Rush"
+            },
+            {
+                "id": "DravenE",
+                "filename": "DravenE.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/DravenDoubleShot.png",
+                "nameEn": "Stand Aside"
+            },
+            {
+                "id": "DravenR",
+                "filename": "DravenR.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/DravenRCast.png",
+                "nameEn": "Whirling Death"
+            }
         ]
     },
     {
@@ -514,10 +1124,30 @@
         },
         "description": "Utterly insane, unrepentantly homicidal, and horrifyingly purple, Dr. Mundo is what keeps many of Zaun's citizens indoors on particularly dark nights. This monosyllabic monstrosity seems to want nothing more than pain\u2014both the giving of it, and the...",
         "spells": [
-            "DrMundoE.mp3",
-            "DrMundoR.mp3",
-            "DrMundoQ.mp3",
-            "DrMundoW.mp3"
+            {
+                "id": "DrMundoQ",
+                "filename": "DrMundoQ.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/DrMundoQ.png",
+                "nameEn": "Infected Bonesaw"
+            },
+            {
+                "id": "DrMundoW",
+                "filename": "DrMundoW.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/DrMundoW.png",
+                "nameEn": "Heart Zapper"
+            },
+            {
+                "id": "DrMundoE",
+                "filename": "DrMundoE.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/DrMundoE.png",
+                "nameEn": "Blunt Force Trauma"
+            },
+            {
+                "id": "DrMundoR",
+                "filename": "DrMundoR.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/DrMundoR.png",
+                "nameEn": "Maximum Dosage"
+            }
         ]
     },
     {
@@ -533,11 +1163,36 @@
         },
         "description": "A prodigy from the rough streets of Zaun, Ekko manipulates time to twist any situation to his advantage. Using his own invention, the Zero Drive, he explores the branching possibilities of reality to craft the perfect moment. Though he revels in this...",
         "spells": [
-            "EkkoPassiv.mp3",
-            "EkkoR.mp3",
-            "EkkoE.mp3",
-            "EkkoQ.mp3",
-            "EkkoW.mp3"
+            {
+                "id": "EkkoPassiv",
+                "filename": "EkkoPassiv.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/passive/Ekko_P.png",
+                "nameEn": "Z-Drive Resonance"
+            },
+            {
+                "id": "EkkoQ",
+                "filename": "EkkoQ.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/EkkoQ.png",
+                "nameEn": "Timewinder"
+            },
+            {
+                "id": "EkkoW",
+                "filename": "EkkoW.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/EkkoW.png",
+                "nameEn": "Parallel Convergence"
+            },
+            {
+                "id": "EkkoE",
+                "filename": "EkkoE.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/EkkoE.png",
+                "nameEn": "Phase Dive"
+            },
+            {
+                "id": "EkkoR",
+                "filename": "EkkoR.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/EkkoR.png",
+                "nameEn": "Chronobreak"
+            }
         ]
     },
     {
@@ -553,10 +1208,30 @@
         },
         "description": "Elise is a deadly predator who dwells in a shuttered, lightless palace, deep within the oldest city of Noxus. Once mortal, she was the mistress of a powerful house, but the bite of a vile demigod transformed her into something beautiful, yet utterly...",
         "spells": [
-            "EliseHumanW.mp3",
-            "EliseHumanE.mp3",
-            "EliseHumanR.mp3",
-            "EliseHumanQ.mp3"
+            {
+                "id": "EliseHumanQ",
+                "filename": "EliseHumanQ.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/EliseHumanQ.png",
+                "nameEn": "Neurotoxin / Venomous Bite"
+            },
+            {
+                "id": "EliseHumanW",
+                "filename": "EliseHumanW.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/EliseHumanW.png",
+                "nameEn": "Volatile Spiderling / Skittering Frenzy"
+            },
+            {
+                "id": "EliseHumanE",
+                "filename": "EliseHumanE.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/EliseHumanE.png",
+                "nameEn": "Cocoon / Rappel"
+            },
+            {
+                "id": "EliseHumanR",
+                "filename": "EliseHumanR.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/EliseR.png",
+                "nameEn": "Spider Form"
+            }
         ]
     },
     {
@@ -572,11 +1247,36 @@
         },
         "description": "Within the dark seams of Runeterra, the demon Evelynn searches for her next victim. She lures in prey with the voluptuous fa\u00e7ade of a human female, but once a person succumbs to her charms, Evelynn's true form is unleashed. She then subjects her victim...",
         "spells": [
-            "EvelynnR.mp3",
-            "EvelynnE.mp3",
-            "EvelynnPassiv.mp3",
-            "EvelynnQ.mp3",
-            "EvelynnW.mp3"
+            {
+                "id": "EvelynnPassiv",
+                "filename": "EvelynnPassiv.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/passive/Evelynn_Passive.png",
+                "nameEn": "Demon Shade"
+            },
+            {
+                "id": "EvelynnQ",
+                "filename": "EvelynnQ.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/EvelynnQ.png",
+                "nameEn": "Hate Spike"
+            },
+            {
+                "id": "EvelynnW",
+                "filename": "EvelynnW.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/EvelynnW.png",
+                "nameEn": "Allure"
+            },
+            {
+                "id": "EvelynnE",
+                "filename": "EvelynnE.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/EvelynnE.png",
+                "nameEn": "Whiplash"
+            },
+            {
+                "id": "EvelynnR",
+                "filename": "EvelynnR.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/EvelynnR.png",
+                "nameEn": "Last Caress"
+            }
         ]
     },
     {
@@ -592,10 +1292,30 @@
         },
         "description": "A dashing adventurer, unknowingly gifted in the magical arts, Ezreal raids long-lost catacombs, tangles with ancient curses, and overcomes seemingly impossible odds with ease. His courage and bravado knowing no bounds, he prefers to improvise his way...",
         "spells": [
-            "EzrealR.mp3",
-            "EzrealE.mp3",
-            "EzrealQ.mp3",
-            "EzrealW.mp3"
+            {
+                "id": "EzrealQ",
+                "filename": "EzrealQ.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/EzrealQ.png",
+                "nameEn": "Mystic Shot"
+            },
+            {
+                "id": "EzrealW",
+                "filename": "EzrealW.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/EzrealW.png",
+                "nameEn": "Essence Flux"
+            },
+            {
+                "id": "EzrealE",
+                "filename": "EzrealE.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/EzrealE.png",
+                "nameEn": "Arcane Shift"
+            },
+            {
+                "id": "EzrealR",
+                "filename": "EzrealR.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/EzrealR.png",
+                "nameEn": "Trueshot Barrage"
+            }
         ]
     },
     {
@@ -611,11 +1331,36 @@
         },
         "description": "Something has awoken in Runeterra. Something ancient. Something terrible. The ageless horror known as Fiddlesticks stalks the edges of mortal society, drawn to areas thick with paranoia where it feeds upon terrorized victims. Wielding a jagged scythe...",
         "spells": [
-            "FiddlesticksE.mp3",
-            "FiddlesticksR.mp3",
-            "FiddlesticksQ.mp3",
-            "FiddlestickW.mp3",
-            "FiddlesticksPassiv.mp3"
+            {
+                "id": "FiddlesticksPassiv",
+                "filename": "FiddlesticksPassiv.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/passive/FiddlesticksP.png",
+                "nameEn": "A Harmless Scarecrow"
+            },
+            {
+                "id": "FiddlesticksQ",
+                "filename": "FiddlesticksQ.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/FiddleSticksQ.png",
+                "nameEn": "Terrify"
+            },
+            {
+                "id": "FiddlestickW",
+                "filename": "FiddlestickW.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/FiddleStickW.png",
+                "nameEn": "Bountiful Harvest"
+            },
+            {
+                "id": "FiddlesticksE",
+                "filename": "FiddlesticksE.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/FiddleSticksE.png",
+                "nameEn": "Reap"
+            },
+            {
+                "id": "FiddlesticksR",
+                "filename": "FiddlesticksR.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/FiddleSticksR.png",
+                "nameEn": "Crowstorm"
+            }
         ]
     },
     {
@@ -631,11 +1376,36 @@
         },
         "description": "The most feared duelist in all Valoran, Fiora is as renowned for her brusque manner and cunning mind as she is for the speed of her bluesteel rapier. Born to House Laurent in the kingdom of Demacia, Fiora took control of the family from her father in...",
         "spells": [
-            "FioraPassiv.mp3",
-            "FioraW.mp3",
-            "FioraE.mp3",
-            "FioraR.mp3",
-            "FioraQ.mp3"
+            {
+                "id": "FioraPassiv",
+                "filename": "FioraPassiv.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/passive/Fiora_P.png",
+                "nameEn": "Duelist's Dance"
+            },
+            {
+                "id": "FioraQ",
+                "filename": "FioraQ.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/FioraQ.png",
+                "nameEn": "Lunge"
+            },
+            {
+                "id": "FioraW",
+                "filename": "FioraW.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/FioraW.png",
+                "nameEn": "Riposte"
+            },
+            {
+                "id": "FioraE",
+                "filename": "FioraE.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/FioraE.png",
+                "nameEn": "Bladework"
+            },
+            {
+                "id": "FioraR",
+                "filename": "FioraR.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/FioraR.png",
+                "nameEn": "Grand Challenge"
+            }
         ]
     },
     {
@@ -651,10 +1421,30 @@
         },
         "description": "Fizz is an amphibious yordle, who dwells among the reefs surrounding Bilgewater. He often retrieves and returns the tithes cast into the sea by superstitious captains, but even the saltiest of sailors know better than to cross him\u2014for many are the tales...",
         "spells": [
-            "FizzW.mp3",
-            "FizzQ.mp3",
-            "FizzE.mp3",
-            "FizzR.mp3"
+            {
+                "id": "FizzQ",
+                "filename": "FizzQ.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/FizzQ.png",
+                "nameEn": "Urchin Strike"
+            },
+            {
+                "id": "FizzW",
+                "filename": "FizzW.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/FizzW.png",
+                "nameEn": "Seastone Trident"
+            },
+            {
+                "id": "FizzE",
+                "filename": "FizzE.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/FizzE.png",
+                "nameEn": "Playful / Trickster"
+            },
+            {
+                "id": "FizzR",
+                "filename": "FizzR.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/FizzR.png",
+                "nameEn": "Chum the Waters"
+            }
         ]
     },
     {
@@ -670,11 +1460,36 @@
         },
         "description": "Outside the gleaming city of Demacia, the stone colossus Galio keeps vigilant watch. Built as a bulwark against enemy mages, he often stands motionless for decades until the presence of powerful magic stirs him to life. Once activated, Galio makes the...",
         "spells": [
-            "GalioW.mp3",
-            "GalioQ.mp3",
-            "GalioE.mp3",
-            "GalioR.mp3",
-            "GalioPassiv.mp3"
+            {
+                "id": "GalioPassiv",
+                "filename": "GalioPassiv.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/passive/Galio_Passive.png",
+                "nameEn": "Colossal Smash"
+            },
+            {
+                "id": "GalioQ",
+                "filename": "GalioQ.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/GalioQ.png",
+                "nameEn": "Winds of War"
+            },
+            {
+                "id": "GalioW",
+                "filename": "GalioW.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/GalioW.png",
+                "nameEn": "Shield of Durand"
+            },
+            {
+                "id": "GalioE",
+                "filename": "GalioE.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/GalioE.png",
+                "nameEn": "Justice Punch"
+            },
+            {
+                "id": "GalioR",
+                "filename": "GalioR.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/GalioR.png",
+                "nameEn": "Hero's Entrance"
+            }
         ]
     },
     {
@@ -690,11 +1505,36 @@
         },
         "description": "As unpredictable as he is brutal, the dethroned reaver king Gangplank is feared far and wide. Once, he ruled the port city of Bilgewater, and while his reign is over, there are those who believe this has only made him more dangerous. Gangplank would see...",
         "spells": [
-            "GangplankPassiv.mp3",
-            "GangplankW.mp3",
-            "GangplankQ.mp3",
-            "GangplankE.mp3",
-            "GangplankR.mp3"
+            {
+                "id": "GangplankPassiv",
+                "filename": "GangplankPassiv.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/passive/Gangplank_Passive.png",
+                "nameEn": "Trial by Fire"
+            },
+            {
+                "id": "GangplankQ",
+                "filename": "GangplankQ.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/GangplankQWrapper.png",
+                "nameEn": "Parrrley"
+            },
+            {
+                "id": "GangplankW",
+                "filename": "GangplankW.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/GangplankW.png",
+                "nameEn": "Remove Scurvy"
+            },
+            {
+                "id": "GangplankE",
+                "filename": "GangplankE.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/GangplankE.png",
+                "nameEn": "Powder Keg"
+            },
+            {
+                "id": "GangplankR",
+                "filename": "GangplankR.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/GangplankR.png",
+                "nameEn": "Cannon Barrage"
+            }
         ]
     },
     {
@@ -710,10 +1550,30 @@
         },
         "description": "A proud and noble warrior, Garen fights as one of the Dauntless Vanguard. He is popular among his fellows, and respected well enough by his enemies\u2014not least as a scion of the prestigious Crownguard family, entrusted with defending Demacia and its...",
         "spells": [
-            "GarenW.mp3",
-            "GarenR.mp3",
-            "GarenE.mp3",
-            "GarenQ.mp3"
+            {
+                "id": "GarenQ",
+                "filename": "GarenQ.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/GarenQ.png",
+                "nameEn": "Decisive Strike"
+            },
+            {
+                "id": "GarenW",
+                "filename": "GarenW.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/GarenW.png",
+                "nameEn": "Courage"
+            },
+            {
+                "id": "GarenE",
+                "filename": "GarenE.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/GarenE.png",
+                "nameEn": "Judgment"
+            },
+            {
+                "id": "GarenR",
+                "filename": "GarenR.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/GarenR.png",
+                "nameEn": "Demacian Justice"
+            }
         ]
     },
     {
@@ -729,14 +1589,54 @@
         },
         "description": "Gnar is a primeval yordle whose playful antics can erupt into a toddler's outrage in an instant, transforming him into a massive beast bent on destruction. Frozen in True Ice for millennia, the curious creature broke free and now hops about a changed...",
         "spells": [
-            "GnarE.mp3",
-            "GnarR.mp3",
-            "GnarQ.mp3",
-            "GnarPassiv.mp3",
-            "GnarW.mp3",
-            "GnarMegaW.mp3",
-            "GnarMegaQ.mp3",
-            "GnarMegaE.mp3"
+            {
+                "id": "GnarPassiv",
+                "filename": "GnarPassiv.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/passive/Gnar_Passive.png",
+                "nameEn": "Rage Gene"
+            },
+            {
+                "id": "GnarQ",
+                "filename": "GnarQ.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/GnarQ.png",
+                "nameEn": "Boomerang Throw / Boulder Toss"
+            },
+            {
+                "id": "GnarMegaQ",
+                "filename": "GnarMegaQ.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/GnarMegaQ.png",
+                "nameEn": "Boomerang Throw / Boulder Toss"
+            },
+            {
+                "id": "GnarW",
+                "filename": "GnarW.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/GnarW.png",
+                "nameEn": "Hyper / Wallop"
+            },
+            {
+                "id": "GnarMegaW",
+                "filename": "GnarMegaW.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/GnarMegaW.png",
+                "nameEn": "Hyper / Wallop"
+            },
+            {
+                "id": "GnarE",
+                "filename": "GnarE.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/GnarE.png",
+                "nameEn": "Hop / Crunch"
+            },
+            {
+                "id": "GnarMegaE",
+                "filename": "GnarMegaE.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/GnarMegaE.png",
+                "nameEn": "Hop / Crunch"
+            },
+            {
+                "id": "GnarR",
+                "filename": "GnarR.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/GnarR.png",
+                "nameEn": "GNAR!"
+            }
         ]
     },
     {
@@ -752,10 +1652,30 @@
         },
         "description": "Equal parts jolly and imposing, Gragas is a massive, rowdy brewmaster on his own quest for the perfect pint of ale. Hailing from parts unknown, he now searches for rare ingredients among the unblemished wastes of the Freljord, trying each recipe as he...",
         "spells": [
-            "GragasW.mp3",
-            "GragasQ.mp3",
-            "GragasE.mp3",
-            "GragasR.mp3"
+            {
+                "id": "GragasQ",
+                "filename": "GragasQ.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/GragasQ.png",
+                "nameEn": "Barrel Roll"
+            },
+            {
+                "id": "GragasW",
+                "filename": "GragasW.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/GragasW.png",
+                "nameEn": "Drunken Rage"
+            },
+            {
+                "id": "GragasE",
+                "filename": "GragasE.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/GragasE.png",
+                "nameEn": "Body Slam"
+            },
+            {
+                "id": "GragasR",
+                "filename": "GragasR.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/GragasR.png",
+                "nameEn": "Explosive Cask"
+            }
         ]
     },
     {
@@ -771,11 +1691,36 @@
         },
         "description": "Malcolm Graves is a renowned mercenary, gambler, and thief\u2014a wanted man in every city and empire he has visited. Even though he has an explosive temper, he possesses a strict sense of criminal honor, often enforced at the business end of his...",
         "spells": [
-            "GravesW.mp3",
-            "GravesQ.mp3",
-            "GravesE.mp3",
-            "GravesR.mp3",
-            "GravesPassiv.mp3"
+            {
+                "id": "GravesPassiv",
+                "filename": "GravesPassiv.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/passive/GravesTrueGrit.png",
+                "nameEn": "New Destiny"
+            },
+            {
+                "id": "GravesQ",
+                "filename": "GravesQ.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/GravesQLineSpell.png",
+                "nameEn": "End of the Line"
+            },
+            {
+                "id": "GravesW",
+                "filename": "GravesW.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/GravesSmokeGrenade.png",
+                "nameEn": "Smoke Screen"
+            },
+            {
+                "id": "GravesE",
+                "filename": "GravesE.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/GravesMove.png",
+                "nameEn": "Quickdraw"
+            },
+            {
+                "id": "GravesR",
+                "filename": "GravesR.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/GravesChargeShot.png",
+                "nameEn": "Collateral Damage"
+            }
         ]
     },
     {
@@ -785,10 +1730,30 @@
         "title": "The Hallowed Seamstress",
         "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Gwen.png",
         "spells": [
-            "GwenQ.mp3",
-            "GwenR.mp3",
-            "GwenE.mp3",
-            "GwenW.mp3"
+            {
+                "id": "GwenQ",
+                "filename": "GwenQ.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/GwenQ.png",
+                "nameEn": "Snip Snip!"
+            },
+            {
+                "id": "GwenW",
+                "filename": "GwenW.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/GwenW.png",
+                "nameEn": "Hallowed Mist"
+            },
+            {
+                "id": "GwenE",
+                "filename": "GwenE.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/GwenE.png",
+                "nameEn": "Skip 'n Slash"
+            },
+            {
+                "id": "GwenR",
+                "filename": "GwenR.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/GwenR.png",
+                "nameEn": "Needlework"
+            }
         ]
     },
     {
@@ -804,10 +1769,30 @@
         },
         "description": "Hecarim is a spectral fusion of man and beast, cursed to ride down the souls of the living for all eternity. When the Blessed Isles fell into shadow, this proud knight was obliterated by the destructive energies of the Ruination, along with all his...",
         "spells": [
-            "HecarimE.mp3",
-            "HecarimR.mp3",
-            "HecarimQ.mp3",
-            "HecarimW.mp3"
+            {
+                "id": "HecarimQ",
+                "filename": "HecarimQ.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/HecarimRapidSlash.png",
+                "nameEn": "Rampage"
+            },
+            {
+                "id": "HecarimW",
+                "filename": "HecarimW.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/HecarimW.png",
+                "nameEn": "Spirit of Dread"
+            },
+            {
+                "id": "HecarimE",
+                "filename": "HecarimE.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/HecarimRamp.png",
+                "nameEn": "Devastating Charge"
+            },
+            {
+                "id": "HecarimR",
+                "filename": "HecarimR.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/HecarimUlt.png",
+                "nameEn": "Onslaught of Shadows"
+            }
         ]
     },
     {
@@ -823,10 +1808,30 @@
         },
         "description": "A brilliant yet eccentric yordle scientist, Professor Cecil B. Heimerdinger is one of the most innovative and esteemed inventors Piltover has ever known. Relentless in his work to the point of neurotic obsession, he thrives on answering the universe's...",
         "spells": [
-            "HeimerdingerE.mp3",
-            "HeimerdingerR.mp3",
-            "HeimerdingerQ.mp3",
-            "HeimerdingerW.mp3"
+            {
+                "id": "HeimerdingerQ",
+                "filename": "HeimerdingerQ.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/HeimerdingerQ.png",
+                "nameEn": "H-28 G Evolution Turret"
+            },
+            {
+                "id": "HeimerdingerW",
+                "filename": "HeimerdingerW.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/HeimerdingerW.png",
+                "nameEn": "Hextech Micro-Rockets"
+            },
+            {
+                "id": "HeimerdingerE",
+                "filename": "HeimerdingerE.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/HeimerdingerE.png",
+                "nameEn": "CH-2 Electron Storm Grenade"
+            },
+            {
+                "id": "HeimerdingerR",
+                "filename": "HeimerdingerR.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/HeimerdingerR.png",
+                "nameEn": "UPGRADE!!!"
+            }
         ]
     },
     {
@@ -834,13 +1839,38 @@
         "key": "910",
         "name": "Hwei",
         "title": "the Visionary",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Illaoi.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Hwei.png",
         "spells": [
-            "HweiPassiv.mp3",
-            "HweiR.mp3",
-            "HweiE.mp3",
-            "HweiQ.mp3",
-            "HweiW.mp3"
+            {
+                "id": "HweiPassiv",
+                "filename": "HweiPassiv.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/passive/HweiPassive.png",
+                "nameEn": "Signature of the Visionary"
+            },
+            {
+                "id": "HweiQ",
+                "filename": "HweiQ.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/HweiQ.png",
+                "nameEn": "Subject: Disaster"
+            },
+            {
+                "id": "HweiW",
+                "filename": "HweiW.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/HweiW.png",
+                "nameEn": "Subject: Serenity"
+            },
+            {
+                "id": "HweiE",
+                "filename": "HweiE.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/HweiE.png",
+                "nameEn": "Subject: Torment"
+            },
+            {
+                "id": "HweiR",
+                "filename": "HweiR.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/HweiR.png",
+                "nameEn": "Spiraling Despair"
+            }
         ]
     },
     {
@@ -856,11 +1886,36 @@
         },
         "description": "Illaoi's powerful physique is dwarfed only by her indomitable faith. As the prophet of the Great Kraken, she uses a huge, golden idol to rip her foes' spirits from their bodies and shatter their perception of reality. All who challenge the \u201cTruth Bearer...",
         "spells": [
-            "IllaoiQ.mp3",
-            "IllaoiE.mp3",
-            "IllaoiR.mp3",
-            "IllaoiW.mp3",
-            "IllaoiPassiv.mp3"
+            {
+                "id": "IllaoiPassiv",
+                "filename": "IllaoiPassiv.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/passive/Illaoi_P.png",
+                "nameEn": "Prophet of an Elder God"
+            },
+            {
+                "id": "IllaoiQ",
+                "filename": "IllaoiQ.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/IllaoiQ.png",
+                "nameEn": "Tentacle Smash"
+            },
+            {
+                "id": "IllaoiW",
+                "filename": "IllaoiW.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/IllaoiW.png",
+                "nameEn": "Harsh Lesson"
+            },
+            {
+                "id": "IllaoiE",
+                "filename": "IllaoiE.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/IllaoiE.png",
+                "nameEn": "Test of Spirit"
+            },
+            {
+                "id": "IllaoiR",
+                "filename": "IllaoiR.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/IllaoiR.png",
+                "nameEn": "Leap of Faith"
+            }
         ]
     },
     {
@@ -876,11 +1931,36 @@
         },
         "description": "The Noxian occupation of Ionia produced many heroes, none more unlikely than young Irelia of Navori. Trained in the ancient dances of her province, she adapted her art for war, using the graceful and carefully practised movements to levitate a host of...",
         "spells": [
-            "IreliaR.mp3",
-            "IreliaE.mp3",
-            "IreliaQ.mp3",
-            "IreliaW.mp3",
-            "IreliaPassiv.mp3"
+            {
+                "id": "IreliaPassiv",
+                "filename": "IreliaPassiv.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/passive/Irelia_Passive.png",
+                "nameEn": "Ionian Fervor"
+            },
+            {
+                "id": "IreliaQ",
+                "filename": "IreliaQ.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/IreliaQ.png",
+                "nameEn": "Bladesurge"
+            },
+            {
+                "id": "IreliaW",
+                "filename": "IreliaW.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/IreliaW.png",
+                "nameEn": "Defiant Dance"
+            },
+            {
+                "id": "IreliaE",
+                "filename": "IreliaE.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/IreliaE.png",
+                "nameEn": "Flawless Duet"
+            },
+            {
+                "id": "IreliaR",
+                "filename": "IreliaR.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/IreliaR.png",
+                "nameEn": "Vanguard's Edge"
+            }
         ]
     },
     {
@@ -896,11 +1976,36 @@
         },
         "description": "Ivern Bramblefoot, known to many as the Green Father, is a peculiar half man, half tree who roams Runeterra's forests, cultivating life everywhere he goes. He knows the secrets of the natural world, and holds deep friendships with all things that grow...",
         "spells": [
-            "IvernPassiv.mp3",
-            "IvernQ.mp3",
-            "IvernE.mp3",
-            "IvernR.mp3",
-            "IvernW.mp3"
+            {
+                "id": "IvernPassiv",
+                "filename": "IvernPassiv.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/passive/IvernP.png",
+                "nameEn": "Friend of the Forest"
+            },
+            {
+                "id": "IvernQ",
+                "filename": "IvernQ.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/IvernQ.png",
+                "nameEn": "Rootcaller"
+            },
+            {
+                "id": "IvernW",
+                "filename": "IvernW.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/IvernW.png",
+                "nameEn": "Brushmaker"
+            },
+            {
+                "id": "IvernE",
+                "filename": "IvernE.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/IvernE.png",
+                "nameEn": "Triggerseed"
+            },
+            {
+                "id": "IvernR",
+                "filename": "IvernR.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/IvernR.png",
+                "nameEn": "Daisy!"
+            }
         ]
     },
     {
@@ -916,10 +2021,30 @@
         },
         "description": "Armed with the power of Runeterra's gales, Janna is a mysterious, elemental wind spirit who protects the dispossessed of Zaun. Some believe she was brought into existence by the pleas of Runeterra's sailors who prayed for fair winds as they navigated...",
         "spells": [
-            "JannaQ.mp3",
-            "JannaR.mp3",
-            "JannaE.mp3",
-            "JannaW.mp3"
+            {
+                "id": "JannaQ",
+                "filename": "JannaQ.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/HowlingGale.png",
+                "nameEn": "Howling Gale"
+            },
+            {
+                "id": "JannaW",
+                "filename": "JannaW.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/SowTheWind.png",
+                "nameEn": "Zephyr"
+            },
+            {
+                "id": "JannaE",
+                "filename": "JannaE.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/EyeOfTheStorm.png",
+                "nameEn": "Eye Of The Storm"
+            },
+            {
+                "id": "JannaR",
+                "filename": "JannaR.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/ReapTheWhirlwind.png",
+                "nameEn": "Monsoon"
+            }
         ]
     },
     {
@@ -935,11 +2060,36 @@
         },
         "description": "Prince Jarvan, scion of the Lightshield dynasty, is heir apparent to the throne of Demacia. Raised to be a paragon of his nation's greatest virtues, he is forced to balance the heavy expectations placed upon him with his own desire to fight on the front...",
         "spells": [
-            "JarvanIVPassiv.mp3",
-            "JarvanIVE.mp3",
-            "JarvanIVR.mp3",
-            "JarvanIVQ.mp3",
-            "JarvanIVW.mp3"
+            {
+                "id": "JarvanIVPassiv",
+                "filename": "JarvanIVPassiv.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/passive/JarvanIVP.png",
+                "nameEn": "Martial Cadence"
+            },
+            {
+                "id": "JarvanIVQ",
+                "filename": "JarvanIVQ.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/JarvanIVDragonStrike.png",
+                "nameEn": "Dragon Strike"
+            },
+            {
+                "id": "JarvanIVW",
+                "filename": "JarvanIVW.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/JarvanIVGoldenAegis.png",
+                "nameEn": "Golden Aegis"
+            },
+            {
+                "id": "JarvanIVE",
+                "filename": "JarvanIVE.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/JarvanIVDemacianStandard.png",
+                "nameEn": "Demacian Standard"
+            },
+            {
+                "id": "JarvanIVR",
+                "filename": "JarvanIVR.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/JarvanIVCataclysm.png",
+                "nameEn": "Cataclysm"
+            }
         ]
     },
     {
@@ -955,10 +2105,30 @@
         },
         "description": "Unmatched in both his skill with unique armaments and his biting sarcasm, Jax is the last known weapons master of Icathia. After his homeland was laid low by its own hubris in unleashing the Void, Jax and his kind vowed to protect what little remained...",
         "spells": [
-            "JaxW.mp3",
-            "JaxR.mp3",
-            "JaxE.mp3",
-            "JaxQ.mp3"
+            {
+                "id": "JaxQ",
+                "filename": "JaxQ.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/JaxQ.png",
+                "nameEn": "Leap Strike"
+            },
+            {
+                "id": "JaxW",
+                "filename": "JaxW.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/JaxW.png",
+                "nameEn": "Empower"
+            },
+            {
+                "id": "JaxE",
+                "filename": "JaxE.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/JaxE.png",
+                "nameEn": "Counter Strike"
+            },
+            {
+                "id": "JaxR",
+                "filename": "JaxR.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/JaxR.png",
+                "nameEn": "Grandmaster-at-Arms"
+            }
         ]
     },
     {
@@ -974,14 +2144,54 @@
         },
         "description": "Jayce is a brilliant inventor who has pledged his life to the defense of Piltover and its unyielding pursuit of progress. With his transforming hextech hammer in hand, Jayce uses his strength, courage, and considerable intelligence to protect his...",
         "spells": [
-            "JayceCannonW.mp3",
-            "JayceCannonE.mp3",
-            "JayceCannonR.mp3",
-            "JayceCannonQ.mp3",
-            "JayceHammerR.mp3",
-            "JayceHammerE.mp3",
-            "JayceHammerQ.mp3",
-            "JayceHammerW.mp3"
+            {
+                "id": "JayceCannonQ",
+                "filename": "JayceCannonQ.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/JayceCannonQ.png",
+                "nameEn": "Shock Blast"
+            },
+            {
+                "id": "JayceHammerQ",
+                "filename": "JayceHammerQ.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/JayceToTheSkies.png",
+                "nameEn": "To the Skies!"
+            },
+            {
+                "id": "JayceCannonW",
+                "filename": "JayceCannonW.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/JayceCannonW.png",
+                "nameEn": "Hyper Charge"
+            },
+            {
+                "id": "JayceHammerW",
+                "filename": "JayceHammerW.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/JayceStaticField.png",
+                "nameEn": "Lightning Field"
+            },
+            {
+                "id": "JayceCannonE",
+                "filename": "JayceCannonE.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/JayceCannonE.png",
+                "nameEn": "Acceleration Gate"
+            },
+            {
+                "id": "JayceHammerE",
+                "filename": "JayceHammerE.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/JayceThunderingBlow.png",
+                "nameEn": "Thundering Blow"
+            },
+            {
+                "id": "JayceCannonR",
+                "filename": "JayceCannonR.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/JayceCannonR.png",
+                "nameEn": "Mercury Hammer"
+            },
+            {
+                "id": "JayceHammerR",
+                "filename": "JayceHammerR.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/JayceStanceHtG.png",
+                "nameEn": "Mercury Cannon"
+            }
         ]
     },
     {
@@ -997,11 +2207,36 @@
         },
         "description": "Jhin is a meticulous criminal psychopath who believes murder is art. Once an Ionian prisoner, but freed by shadowy elements within Ionia's ruling council, the serial killer now works as their cabal's assassin. Using his gun as his paintbrush, Jhin...",
         "spells": [
-            "JhinPassiv.mp3",
-            "JhinW.mp3",
-            "JhinQ.mp3",
-            "JhinR.mp3",
-            "JhinE.mp3"
+            {
+                "id": "JhinPassiv",
+                "filename": "JhinPassiv.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/passive/Jhin_P.png",
+                "nameEn": "Whisper"
+            },
+            {
+                "id": "JhinQ",
+                "filename": "JhinQ.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/JhinQ.png",
+                "nameEn": "Dancing Grenade"
+            },
+            {
+                "id": "JhinW",
+                "filename": "JhinW.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/JhinW.png",
+                "nameEn": "Deadly Flourish"
+            },
+            {
+                "id": "JhinE",
+                "filename": "JhinE.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/JhinE.png",
+                "nameEn": "Captive Audience"
+            },
+            {
+                "id": "JhinR",
+                "filename": "JhinR.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/JhinR.png",
+                "nameEn": "Curtain Call"
+            }
         ]
     },
     {
@@ -1017,11 +2252,36 @@
         },
         "description": "A manic and impulsive criminal from Zaun, Jinx lives to wreak havoc without care for the consequences. With an arsenal of deadly weapons, she unleashes the loudest blasts and brightest explosions to leave a trail of mayhem and panic in her wake. Jinx...",
         "spells": [
-            "JinxPassiv.mp3",
-            "JinxW.mp3",
-            "JinxE.mp3",
-            "JinxR.mp3",
-            "JinxQ.mp3"
+            {
+                "id": "JinxPassiv",
+                "filename": "JinxPassiv.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/passive/Jinx_Passive.png",
+                "nameEn": "Get Excited!"
+            },
+            {
+                "id": "JinxQ",
+                "filename": "JinxQ.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/JinxQ.png",
+                "nameEn": "Switcheroo!"
+            },
+            {
+                "id": "JinxW",
+                "filename": "JinxW.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/JinxW.png",
+                "nameEn": "Zap!"
+            },
+            {
+                "id": "JinxE",
+                "filename": "JinxE.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/JinxE.png",
+                "nameEn": "Flame Chompers!"
+            },
+            {
+                "id": "JinxR",
+                "filename": "JinxR.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/JinxR.png",
+                "nameEn": "Super Mega Death Rocket!"
+            }
         ]
     },
     {
@@ -1037,11 +2297,36 @@
         },
         "description": "Claimed by the Void when she was only a child, Kai'Sa managed to survive through sheer tenacity and strength of will. Her experiences have made her a deadly hunter and, to some, the harbinger of a future they would rather not live to see. Having entered...",
         "spells": [
-            "KaisaW.mp3",
-            "KaisaQ.mp3",
-            "KaisaE.mp3",
-            "KaisaR.mp3",
-            "KaisaPassive.mp3"
+            {
+                "id": "KaisaQ",
+                "filename": "KaisaQ.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/KaisaQ.png",
+                "nameEn": "Icathian Rain"
+            },
+            {
+                "id": "KaisaW",
+                "filename": "KaisaW.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/KaisaW.png",
+                "nameEn": "Void Seeker"
+            },
+            {
+                "id": "KaisaE",
+                "filename": "KaisaE.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/KaisaE.png",
+                "nameEn": "Supercharge"
+            },
+            {
+                "id": "KaisaR",
+                "filename": "KaisaR.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/KaisaR.png",
+                "nameEn": "Killer Instinct"
+            },
+            {
+                "id": "KaisaPassive",
+                "filename": "KaisaPassive.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/Kaisa_Passive.png",
+                "nameEn": "Second Skin"
+            }
         ]
     },
     {
@@ -1057,10 +2342,30 @@
         },
         "description": "A specter of wrath and retribution, Kalista is the undying spirit of vengeance, an armored nightmare summoned from the Shadow Isles to hunt deceivers and traitors. The betrayed may cry out in blood to be avenged, but Kalista only answers those willing...",
         "spells": [
-            "KalistaPassiv.mp3",
-            "KalistaE.mp3",
-            "KalistaQ.mp3",
-            "KalistaW.mp3"
+            {
+                "id": "KalistaPassiv",
+                "filename": "KalistaPassiv.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/passive/Kalista_Passive.png",
+                "nameEn": "Martial Poise"
+            },
+            {
+                "id": "KalistaQ",
+                "filename": "KalistaQ.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/KalistaMysticShot.png",
+                "nameEn": "Pierce"
+            },
+            {
+                "id": "KalistaW",
+                "filename": "KalistaW.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/KalistaW.png",
+                "nameEn": "Sentinel"
+            },
+            {
+                "id": "KalistaE",
+                "filename": "KalistaE.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/KalistaExpungeWrapper.png",
+                "nameEn": "Rend"
+            }
         ]
     },
     {
@@ -1076,10 +2381,30 @@
         },
         "description": "No mortal exemplifies the spiritual traditions of Ionia more than Karma. She is the living embodiment of an ancient soul reincarnated countless times, carrying all her accumulated memories into each new life, and blessed with power that few can...",
         "spells": [
-            "KarmaW.mp3",
-            "KarmaQ.mp3",
-            "KarmaR.mp3",
-            "KarmaE.mp3"
+            {
+                "id": "KarmaQ",
+                "filename": "KarmaQ.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/KarmaQ.png",
+                "nameEn": "Inner Flame"
+            },
+            {
+                "id": "KarmaW",
+                "filename": "KarmaW.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/KarmaSpiritBind.png",
+                "nameEn": "Focused Resolve"
+            },
+            {
+                "id": "KarmaE",
+                "filename": "KarmaE.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/KarmaSolKimShield.png",
+                "nameEn": "Inspire"
+            },
+            {
+                "id": "KarmaR",
+                "filename": "KarmaR.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/KarmaMantra.png",
+                "nameEn": "Mantra"
+            }
         ]
     },
     {
@@ -1095,11 +2420,36 @@
         },
         "description": "The harbinger of oblivion, Karthus is an undying spirit whose haunting songs are a prelude to the horror of his nightmarish appearance. The living fear the eternity of undeath, but Karthus sees only beauty and purity in its embrace, a perfect union of...",
         "spells": [
-            "KarthusPassiv.mp3",
-            "KarthusE.mp3",
-            "KarthusR.mp3",
-            "KarthusQ.mp3",
-            "KarthusW.mp3"
+            {
+                "id": "KarthusPassiv",
+                "filename": "KarthusPassiv.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/passive/Karthus_Passive.png",
+                "nameEn": "Death Defied"
+            },
+            {
+                "id": "KarthusQ",
+                "filename": "KarthusQ.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/KarthusLayWasteA1.png",
+                "nameEn": "Lay Waste"
+            },
+            {
+                "id": "KarthusW",
+                "filename": "KarthusW.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/KarthusWallOfPain.png",
+                "nameEn": "Wall of Pain"
+            },
+            {
+                "id": "KarthusE",
+                "filename": "KarthusE.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/KarthusDefile.png",
+                "nameEn": "Defile"
+            },
+            {
+                "id": "KarthusR",
+                "filename": "KarthusR.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/KarthusFallenOne.png",
+                "nameEn": "Requiem"
+            }
         ]
     },
     {
@@ -1115,11 +2465,30 @@
         },
         "description": "Cutting a burning swath through the darkest places of the world, Kassadin knows his days are numbered. A widely traveled Shuriman guide and adventurer, he had chosen to raise a family among the peaceful southern tribes\u2014until the day his village was...",
         "spells": [
-            "template spells.mp3",
-            "KassadinQ.mp3",
-            "KassadinR.mp3",
-            "KassadinE.mp3",
-            "KassadinW.mp3"
+            {
+                "id": "KassadinQ",
+                "filename": "KassadinQ.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/NullLance.png",
+                "nameEn": "Null Sphere"
+            },
+            {
+                "id": "KassadinW",
+                "filename": "KassadinW.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/NetherBlade.png",
+                "nameEn": "Nether Blade"
+            },
+            {
+                "id": "KassadinE",
+                "filename": "KassadinE.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/ForcePulse.png",
+                "nameEn": "Force Pulse"
+            },
+            {
+                "id": "KassadinR",
+                "filename": "KassadinR.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/RiftWalk.png",
+                "nameEn": "Riftwalk"
+            }
         ]
     },
     {
@@ -1135,11 +2504,36 @@
         },
         "description": "Decisive in judgment and lethal in combat, Katarina is a Noxian assassin of the highest caliber. Eldest daughter to the legendary General Du Couteau, she made her talents known with swift kills against unsuspecting enemies. Her fiery ambition has driven...",
         "spells": [
-            "KatarinaQ.mp3",
-            "KatarinaR.mp3",
-            "KatarinaE.mp3",
-            "KatarinaW.mp3",
-            "KatarinaPassiv.mp3"
+            {
+                "id": "KatarinaPassiv",
+                "filename": "KatarinaPassiv.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/passive/Katarina_Passive.png",
+                "nameEn": "Voracity"
+            },
+            {
+                "id": "KatarinaQ",
+                "filename": "KatarinaQ.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/KatarinaQ.png",
+                "nameEn": "Bouncing Blade"
+            },
+            {
+                "id": "KatarinaW",
+                "filename": "KatarinaW.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/KatarinaW.png",
+                "nameEn": "Preparation"
+            },
+            {
+                "id": "KatarinaE",
+                "filename": "KatarinaE.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/KatarinaEWrapper.png",
+                "nameEn": "Shunpo"
+            },
+            {
+                "id": "KatarinaR",
+                "filename": "KatarinaR.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/KatarinaR.png",
+                "nameEn": "Death Lotus"
+            }
         ]
     },
     {
@@ -1155,11 +2549,36 @@
         },
         "description": "Born to a Targonian Aspect at the height of the Rune Wars, Kayle honored her mother's legacy by fighting for justice on wings of divine flame. She and her twin sister Morgana were the protectors of Demacia for many years\u2014until Kayle became disillusioned...",
         "spells": [
-            "KaylePassiv.mp3",
-            "KayleW.mp3",
-            "KayleQ.mp3",
-            "KayleE.mp3",
-            "KayleR.mp3"
+            {
+                "id": "KaylePassiv",
+                "filename": "KaylePassiv.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/passive/Kayle_P.png",
+                "nameEn": "Divine Ascent"
+            },
+            {
+                "id": "KayleQ",
+                "filename": "KayleQ.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/KayleQ.png",
+                "nameEn": "Radiant Blast"
+            },
+            {
+                "id": "KayleW",
+                "filename": "KayleW.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/KayleW.png",
+                "nameEn": "Celestial Blessing"
+            },
+            {
+                "id": "KayleE",
+                "filename": "KayleE.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/KayleE.png",
+                "nameEn": "Starfire Spellblade"
+            },
+            {
+                "id": "KayleR",
+                "filename": "KayleR.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/KayleR.png",
+                "nameEn": "Divine Judgment"
+            }
         ]
     },
     {
@@ -1175,12 +2594,42 @@
         },
         "description": "A peerless practitioner of lethal shadow magic, Shieda Kayn battles to achieve his true destiny\u2014to one day lead the Order of Shadow into a new era of Ionian supremacy. He wields the sentient darkin weapon Rhaast, undeterred by its creeping corruption of...",
         "spells": [
-            "KaynRedPassiv.mp3",
-            "KaynBluePassiv.mp3",
-            "KaynW.mp3",
-            "KaynQ.mp3",
-            "KaynE.mp3",
-            "KaynR.mp3"
+            {
+                "id": "KaynRedPassiv",
+                "filename": "KaynRedPassiv.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/passive/Kayn_Passive_Primary.png",
+                "nameEn": "The Darkin Scythe Red"
+            },
+            {
+                "id": "KaynBluePassiv",
+                "filename": "KaynBluePassiv.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/passive/Kayn_Passive_Primary.png",
+                "nameEn": "The Darkin Scythe Blue"
+            },
+            {
+                "id": "KaynQ",
+                "filename": "KaynQ.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/KaynQ.png",
+                "nameEn": "Reaping Slash"
+            },
+            {
+                "id": "KaynW",
+                "filename": "KaynW.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/KaynW.png",
+                "nameEn": "Blade's Reach"
+            },
+            {
+                "id": "KaynE",
+                "filename": "KaynE.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/KaynE.png",
+                "nameEn": "Shadow Step"
+            },
+            {
+                "id": "KaynR",
+                "filename": "KaynR.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/KaynR.png",
+                "nameEn": "Umbral Trespass"
+            }
         ]
     },
     {
@@ -1196,11 +2645,36 @@
         },
         "description": "More than just the lightning-quick enforcer of Ionian balance, Kennen is the only yordle member of the Kinkou. Despite his small, furry stature, he is eager to take on any threat with a whirling storm of shuriken and boundless enthusiasm. Alongside his...",
         "spells": [
-            "KennenR.mp3",
-            "KennenE.mp3",
-            "KennenQ.mp3",
-            "KennenW.mp3",
-            "KennenPassiv.mp3"
+            {
+                "id": "KennenPassiv",
+                "filename": "KennenPassiv.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/passive/Kennen_Passive.png",
+                "nameEn": "Mark of the Storm"
+            },
+            {
+                "id": "KennenQ",
+                "filename": "KennenQ.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/KennenShurikenHurlMissile1.png",
+                "nameEn": "Thundering Shuriken"
+            },
+            {
+                "id": "KennenW",
+                "filename": "KennenW.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/KennenBringTheLight.png",
+                "nameEn": "Electrical Surge"
+            },
+            {
+                "id": "KennenE",
+                "filename": "KennenE.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/KennenLightningRush.png",
+                "nameEn": "Lightning Rush"
+            },
+            {
+                "id": "KennenR",
+                "filename": "KennenR.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/KennenShurikenStorm.png",
+                "nameEn": "Slicing Maelstrom"
+            }
         ]
     },
     {
@@ -1216,11 +2690,36 @@
         },
         "description": "The Void grows, and the Void adapts\u2014in none of its myriad spawn are these truths more apparent than Kha'Zix. Evolution drives the core of this mutating horror, born to survive and to slay the strong. Where it struggles to do so, it grows new, more...",
         "spells": [
-            "KhazixE.mp3",
-            "KhazixR.mp3",
-            "KhazixQ.mp3",
-            "KhazixW.mp3",
-            "KhazixPassiv.mp3"
+            {
+                "id": "KhazixPassiv",
+                "filename": "KhazixPassiv.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/passive/Khazix_P.png",
+                "nameEn": "Unseen Threat"
+            },
+            {
+                "id": "KhazixQ",
+                "filename": "KhazixQ.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/KhazixQ.png",
+                "nameEn": "Taste Their Fear"
+            },
+            {
+                "id": "KhazixW",
+                "filename": "KhazixW.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/KhazixW.png",
+                "nameEn": "Void Spike"
+            },
+            {
+                "id": "KhazixE",
+                "filename": "KhazixE.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/KhazixE.png",
+                "nameEn": "Leap"
+            },
+            {
+                "id": "KhazixR",
+                "filename": "KhazixR.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/KhazixR.png",
+                "nameEn": "Void Assault"
+            }
         ]
     },
     {
@@ -1236,11 +2735,36 @@
         },
         "description": "Separate, but never parted, Kindred represents the twin essences of death. Lamb's bow offers a swift release from the mortal realm for those who accept their fate. Wolf hunts down those who run from their end, delivering violent finality within his...",
         "spells": [
-            "KindredW.mp3",
-            "KindredQ.mp3",
-            "KindredPassiv.mp3",
-            "KindredR.mp3",
-            "KindredE.mp3"
+            {
+                "id": "KindredPassiv",
+                "filename": "KindredPassiv.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/passive/Kindred_Passive.png",
+                "nameEn": "Mark of the Kindred"
+            },
+            {
+                "id": "KindredQ",
+                "filename": "KindredQ.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/KindredQ.png",
+                "nameEn": "Dance of Arrows"
+            },
+            {
+                "id": "KindredW",
+                "filename": "KindredW.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/KindredW.png",
+                "nameEn": "Wolf's Frenzy"
+            },
+            {
+                "id": "KindredE",
+                "filename": "KindredE.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/KindredEWrapper.png",
+                "nameEn": "Mounting Dread"
+            },
+            {
+                "id": "KindredR",
+                "filename": "KindredR.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/KindredR.png",
+                "nameEn": "Lamb's Respite"
+            }
         ]
     },
     {
@@ -1256,13 +2780,48 @@
         },
         "description": "A warrior as fearless as he is ornery, the yordle Kled embodies the furious bravado of Noxus. He is an icon beloved by the empire's soldiers, distrusted by its officers, and loathed by the nobility. Many claim Kled has fought in every campaign the...",
         "spells": [
-            "KledR.mp3",
-            "KledE.mp3",
-            "KledW.mp3",
-            "KledMountedPassiv.mp3",
-            "KledUnmountedQ.mp3",
-            "KledMountedQ.mp3",
-            "KledUnmountedPassiv.mp3"
+            {
+                "id": "KledMountedPassiv",
+                "filename": "KledMountedPassiv.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/passive/Kled_P.png",
+                "nameEn": "Skaarl, the Cowardly Lizard Mounted"
+            },
+            {
+                "id": "KledUnmountedPassiv",
+                "filename": "KledUnmountedPassiv.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/passive/Kled_P.png",
+                "nameEn": "Skaarl, the Cowardly Lizard Unmounted"
+            },
+            {
+                "id": "KledUnmountedQ",
+                "filename": "KledUnmountedQ.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/KledQ.png",
+                "nameEn": "Bear Trap on a Rope Unmounted"
+            },
+            {
+                "id": "KledMountedQ",
+                "filename": "KledMountedQ.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/KledQ.png",
+                "nameEn": "Bear Trap on a Rope Mounted"
+            },
+            {
+                "id": "KledW",
+                "filename": "KledW.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/KledW.png",
+                "nameEn": "Violent Tendencies"
+            },
+            {
+                "id": "KledE",
+                "filename": "KledE.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/KledE.png",
+                "nameEn": "Jousting"
+            },
+            {
+                "id": "KledR",
+                "filename": "KledR.mp3",
+                "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/spell/KledR.png",
+                "nameEn": "Chaaaaaaaarge!!!"
+            }
         ]
     },
     {
